@@ -1,15 +1,15 @@
-# GitHub Automation Test
+## Pull Request Webhook Testing
 
-This repository is used to test the Event-Driven GitHub Automation Bot.
+This update is created to test the Event-Driven GitHub Automation Bot.
 
-## Webhook Testing
+### Test Scenarios
 
-- Test GitHub issue creation.
-- Verify automatic bug labeling.
-- Test Slack notifications.
-- Verify pull request webhook events.
-- Verify push webhook events.
+- Verify GitHub push webhook delivery.
+- Verify pull request opened event.
+- Confirm webhook events appear in the dashboard.
+- Validate event processing and status tracking.
+- Confirm duplicate webhook deliveries are handled safely.
 
-## Latest Update
+### Expected Result
 
-Added README changes to test GitHub push and pull request automation.
+The automation dashboard should record the push and pull request events successfully.
